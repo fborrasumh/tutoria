@@ -1,5 +1,7 @@
 # TutorIA
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23066871.svg)](https://doi.org/10.5281/zenodo.23066871)
+
 **Aplicación:** https://fborrasumh.github.io/tutoria/
 
 Un tutor de IA que **hace pensar**, construido con el material del profesor. El profesor prepara una lección a partir de su tema y valida las soluciones; el estudiante la recorre paso a paso: el tutor no le da las respuestas, le hace razonar, le da pistas graduadas y confirma cuándo acierta. Diagnóstico al principio, comprobación al final y repaso espaciado. Aplicación de un solo fichero (`index.html`), sin servidor ni cuenta, con el diseño de la familia Forja.
@@ -38,6 +40,12 @@ El estudio original usó soluciones y prompts escritos por profesores expertos. 
 ## Privacidad
 
 Lecciones y progreso se guardan en el navegador (`localStorage`). Con clave (`ia_openai_key`, compartida con el resto del catálogo), se envían a OpenAI la parte de la lección en curso y los mensajes del estudiante. El enlace del profesor no incluye el material completo, solo la lección.
+
+## Cómo citar
+
+Borrás Rocher, F. (2026). *TutorIA* (versión 1.0.0) [Software]. Universidad Miguel Hernández de Elche. https://doi.org/10.5281/zenodo.23066871
+
+El DOI es el de concepto: apunta siempre a la última versión. GitHub ofrece la cita en APA y BibTeX con el botón *Cite this repository*, a partir de `CITATION.cff`.
 
 Forma parte del catálogo [Herramientas IA para la academia](https://fborrasumh.github.io/ia/).
 
